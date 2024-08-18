@@ -1,0 +1,255 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    text-decoration: none;
+}
+.pagina{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 17%;
+}
+.logo{
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 5rem;
+}
+.nav{
+    transition: 0.5s;
+    background-color: rgb(95, 6, 6);
+    gap: 3rem;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/1;
+
+}
+.categorias{
+    background-color: rgb(95, 6, 6)
+}
+.lista-botones{
+    display: grid;
+    gap: 2rem;
+}
+.boton-categoria{
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    padding: 8px;
+    width: 38vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    border-end-end-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.boton-categoria:hover{
+    border-end-end-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.header{
+    height: 35px;
+    background-color: rgb(95, 6, 6);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-between;
+    grid-column: 2/5;
+}
+.title{
+    color: white;
+}
+.tema{
+    border: 0px;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+    background-color:white;
+    width: 5rem;
+    padding: 11px;
+}
+.tema:hover{
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.bolso-numero{
+    display: flex;
+    background-color: white;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+}
+.bolso-numero:hover{
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+    background-color: brown;
+    color: white;
+    transition: 0.3s;
+}
+.number{
+    color: black;
+    text-align: center;
+    font-size: 6vh;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+.bolso{
+    font-size: 26px;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+.main{
+    transition: 0.5s;
+    padding: 15px;
+    gap: 5px;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column: 2/5;
+}
+#tarjet{
+    height: 17rem;
+    width: 12rem;
+    background-color: black;
+    border-radius: 2rem;
+    border: 2px rgba(0, 0, 0, 0.568) solid;
+    text-align: center;
+}
+.target{
+    height: 17rem;
+    width: 12rem;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 2rem;
+    border: 2px rgba(0, 0, 0, 0.568) solid;
+    text-align: center;
+}
+.img{
+    border-radius: 2rem;
+    height: 11rem;
+    width: 12rem;
+}
+.text-nombre{
+    color: antiquewhite;
+}
+.precio{
+    color: antiquewhite;
+}
+.boton-agregar{
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: 7px;
+}
+.footer{
+    background-color: rgb(95, 6, 6);
+    grid-column: 1/5;
+}
+
+
+/*------------- Cambio de tema -----------------------*/
+
+.tema-header{
+    background-color: rgba(156, 87, 87, 0.753);
+}
+.tema-nav{
+    transition: 0.5s;
+    background-color: rgba(156, 87, 87, 0.753);
+    gap: 3rem;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/1;
+
+}
+.tema-categorias{
+    background-color: rgba(156, 87, 87, 0.753);
+}
+.tema-main{
+    transition: 0.5s;
+    background-color: white;
+}
+.tema-footer{
+    background-color: rgba(156, 87, 87, 0.753);
+}
+
+/*--------Css De carrito-------*/
+
+.footer-carrito{
+    background-color: rgb(95, 6, 6);
+}
+
+.btn-volver{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    padding: 8px;
+    width: 10rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    border-end-end-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.btn-volver:hover{
+    border-end-end-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+#carrito-vacio{
+    width: 30rem;
+    text-align: end;
+    margin: 1rem;
+    color: rgb(95, 6, 6);
+}
+.tarjet-carrito{
+    width: 120%;
+    padding: 1rem;
+    margin: 2rem;
+    color: white;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+}
+.img-carrito{
+    width: 6rem;
+    height: 6rem;
+}
+.compra-total{
+    display: flex;
+    margin: 1rem;
+}
+.quitar{
+    font-size: 20px;
+}
+.total{
+    padding: 7px;
+    color: rgb(95, 6, 6);
+}
+.btn-comprar{
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: 7px;
+}
+
+.vacio{
+    display: none;
+}
+.tarjeta-carrito{
+    display: none;
+}
+.comprar{
+    display: none;
+}
